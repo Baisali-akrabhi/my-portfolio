@@ -97,14 +97,7 @@ const About = () => {
         {/* TITLE ENDS */}
         <div className="skills-content">
           <div>
-            {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-down-animation fadeInLeft wow">
-              <span>
-                <i className="devicon-wordpress-plain" />
-              </span>
-              <h4>HTML & CSS</h4>
-            </div>
-            {/* SKILL ITEM ENDS */}
+            
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-up-animation fadeInRight wow">
               <span>
@@ -118,7 +111,7 @@ const About = () => {
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-down-animation fadeInLeft wow">
               <span>
-                <i className="devicon-wordpress-plain" />
+                <i className="devicon-javascript-plain" />
               </span>
               <h4>JavaScript</h4>
             </div>
@@ -126,7 +119,7 @@ const About = () => {
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-up-animation fadeInRight wow">
               <span>
-                <i className="devicon-jquery-plain" />
+                <i className="devicon-react-original" />
               </span>
               <h4>ReactJS / Native</h4>
             </div>
@@ -136,15 +129,15 @@ const About = () => {
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-down-animation fadeInLeft wow">
               <span>
-                <i className="devicon-angularjs-plain" />
+                <i className="devicon-materialui-plain" />
               </span>
-              <h4>Material Design</h4>
+              <h4>Material-Design</h4>
             </div>
             {/* SKILL ITEM ENDS */}
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-up-animation fadeInRight wow">
               <span>
-                <i className="devicon-drupal-plain" />
+                <i className="devicon-mysql-plain" />
               </span>
               <h4>MySQL</h4>
             </div>
@@ -154,7 +147,7 @@ const About = () => {
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-down-animation fadeInLeft wow">
               <span>
-                <i className="devicon-react-plain" />
+                <i className="devicon-jira-plain" />
               </span>
               <h4>JIRA</h4>
             </div>
@@ -180,27 +173,28 @@ const About = () => {
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-up-animation fadeInRight wow">
               <span>
-                <i className="devicon-sass-plain" />
+                <i className="devicon-github-plain" />
               </span>
               <h4>GitHub</h4>
             </div>
             {/* SKILL ITEM ENDS */}
           </div>
           <div>
-            {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-down-animation fadeInLeft wow">
-              <span>
-                <i className="devicon-nodejs-plain" />
-              </span>
-              <h4>Styled Component</h4>
-            </div>
-            {/* SKILL ITEM ENDS */}
+            
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-up-animation fadeInRight wow">
               <span>
-                <i className="devicon-sass-plain" />
+                <i className="devicon-firebase-plain" />
               </span>
               <h4>Firebase</h4>
+            </div>
+            {/* SKILL ITEM ENDS */}
+             {/* SKILL ITEM STARTS */}
+             <div className="animated-layer fade-in-up-animation fadeInRight wow">
+              <span>
+                <i className="devicon-heroku-plain" />
+              </span>
+              <h4>Heroku</h4>
             </div>
             {/* SKILL ITEM ENDS */}
           </div>
@@ -208,19 +202,12 @@ const About = () => {
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-down-animation fadeInLeft wow">
               <span>
-                <i className="devicon-wordpress-plain" />
+                <i className="devicon-confluence-plain" />
               </span>
               <h4>Confluence</h4>
             </div>
             {/* SKILL ITEM ENDS */}
-            {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-up-animation fadeInRight wow">
-              <span>
-                <i className="devicon-jquery-plain" />
-              </span>
-              <h4>Heroku</h4>
-            </div>
-            {/* SKILL ITEM ENDS */}
+           
           </div>
         </div>
       </div>
@@ -233,7 +220,7 @@ const About = () => {
           <h3>
             <span>
               <span className="animated-layer fade-in-left-animation">
-                My Resume
+                My Journey
               </span>
             </span>
           </h3>
@@ -262,19 +249,20 @@ const About = () => {
             {/* TIMELINE ITEM ENDS */}
             {/* TIMELINE ITEM STARTS */}
             <li>
-              <div className="animated-layer fade-in-up-animation fadeInUp wow">
-                <div className="experience">
-                  <h4>Team Leader</h4>
+            <div className="animated-layer fade-in-down-animation fadeInUp wow">
+                <div className="education">
+                  <h4>Bachelor Degree</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
-                    <span>2022 - 2023</span>
+                    <span>2018</span>
                   </p>
                   <p>
-                    <i className="fa-regular fa-building" />
-                    <span>Akrabhi Softlabs Pvt. Ltd.</span>
+                    <i className="fa-solid fa-building-columns" />
+                    <span>Berhampur University</span>
                   </p>
                 </div>
               </div>
+             
             </li>
             {/* TIMELINE ITEM ENDS */}
             {/* TIMELINE ITEM STARTS */}
@@ -313,16 +301,16 @@ const About = () => {
             {/* TIMELINE ITEM ENDS */}
             {/* TIMELINE ITEM STARTS */}
             <li>
-              <div className="animated-layer fade-in-down-animation fadeInUp wow">
-                <div className="education">
-                  <h4>Bachelor Degree</h4>
+            <div className="animated-layer fade-in-up-animation fadeInUp wow">
+                <div className="experience">
+                  <h4>Team Leader</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
-                    <span>2018</span>
+                    <span>2022 - 2023</span>
                   </p>
                   <p>
-                    <i className="fa-solid fa-building-columns" />
-                    <span>Berhampur University</span>
+                    <i className="fa-regular fa-building" />
+                    <span>Akrabhi Softlabs Pvt. Ltd.</span>
                   </p>
                 </div>
               </div>

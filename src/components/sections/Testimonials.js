@@ -7,14 +7,12 @@ const Testimonials = () => {
           <div>
             <p>
               <span className="quote">
-                " I worked with Steven, he was very helpful and fast to respond
-                to my inquiry to help with Wordpress website issues and all
-                technical problems. "
+                " All the support and training , I have got from you has been very helpful in solving different issues I have faced until now. I have enjoyed working under your leadership and learned a lot which will be very much helpful for me in the upcoming projects that I will come to work in future. "
               </span>
-              <span className="person">Jasmin Aniston</span>
-              <span className="job">Director - Adobe</span>
+              <span className="person">Sahil Biswaprakash Das</span>
+              <span className="job">SDE - InfoViz</span>
             </p>
-            <img src="assets/testimonials/testimonial-1.jpg" alt="" />
+            <img src="assets/testimonials/sahil.png" alt="" />
           </div>
         </div>
         {/* TESTIMONIAL ITEM ENDS */}
@@ -23,14 +21,23 @@ const Testimonials = () => {
           <div>
             <p>
               <span className="quote">
-                " Steven is a great help managing a very out of date website.
-                Everything we ask him to do is done quickly and efficiently, we
-                would be lost without him. "
+                <ul>
+                  <li>
+                    Ability to collaborate within and across teams.
+                  </li>
+                  <li>
+                    Ability to mentor and teach other developers.
+                  </li>
+                  <li>
+                    I have got the technical skills and knowledge needed to solve the technical & logical issue in software
+                  </li>
+                </ul>
+                
               </span>
-              <span className="person">Mark Eliott</span>
-              <span className="job">Manager - Envato</span>
+              <span className="person">Subhrajit Pattnayak</span>
+              <span className="job">SDE - InfoViz</span>
             </p>
-            <img src="assets/testimonials/testimonial-2.jpg" alt="" />
+            <img src="assets/testimonials/subhrajit.png" alt="" />
           </div>
         </div>
         {/* TESTIMONIAL ITEM ENDS */}

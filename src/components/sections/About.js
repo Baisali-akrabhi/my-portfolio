@@ -251,7 +251,7 @@ const About = () => {
             <li>
             <div className="animated-layer fade-in-down-animation fadeInUp wow">
                 <div className="education">
-                  <h4>Bachelor Degree</h4>
+                  <h4>BCA</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
                     <span>2018</span>
@@ -259,6 +259,10 @@ const About = () => {
                   <p>
                     <i className="fa-solid fa-building-columns" />
                     <span>Berhampur University</span>
+                  </p>
+                  <p>
+                  <i className="fa-solid fa-certificate" />
+                    <span>11th rank in University</span>
                   </p>
                 </div>
               </div>
@@ -278,6 +282,10 @@ const About = () => {
                     <i className="fa-regular fa-building" />
                     <span>Akrabhi Softlabs Pvt. Ltd.</span>
                   </p>
+                  <p>
+                  <i className="fa-solid fa-certificate" />
+                    <span>Employee of the Year-2021</span>
+                  </p>
                 </div>
               </div>
             </li>
@@ -286,7 +294,7 @@ const About = () => {
             <li>
               <div className="animated-layer fade-in-up-animation fadeInUp wow">
                 <div className="education">
-                  <h4>Master Degree</h4>
+                  <h4>MCA</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
                     <span>2020</span>
@@ -294,6 +302,10 @@ const About = () => {
                   <p>
                     <i className="fa-solid fa-building-columns" />
                     <span>SOA University</span>
+                  </p>
+                  <p>
+                  <i className="fa-solid fa-certificate" />
+                    <span>University Topper</span>
                   </p>
                 </div>
               </div>
@@ -312,6 +324,7 @@ const About = () => {
                     <i className="fa-regular fa-building" />
                     <span>Akrabhi Softlabs Pvt. Ltd.</span>
                   </p>
+                 
                 </div>
               </div>
             </li>

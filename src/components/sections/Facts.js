@@ -11,7 +11,7 @@ const Facts = () => {
             <div>
               <h3>3</h3>
               <p>
-                years of<span>experience</span>
+              completed<span>projects</span>
               </p>
             </div>
           </div>
@@ -24,9 +24,9 @@ const Facts = () => {
         >
           <div>
             <div>
-              <h3>67</h3>
+              <h3>2</h3>
               <p>
-                completed<span>projects</span>
+              times University<span>topper</span>
               </p>
             </div>
           </div>
@@ -39,9 +39,9 @@ const Facts = () => {
         >
           <div>
             <div>
-              <h3>56</h3>
+              <h3>3</h3>
               <p>
-                Happy<span>customers</span>
+              awards on <span>workplace</span>
               </p>
             </div>
           </div>
@@ -54,9 +54,9 @@ const Facts = () => {
         >
           <div>
             <div>
-              <h3>13</h3>
+              <h3>16+</h3>
               <p>
-                awards<span>won</span>
+                technologies<span>learned</span>
               </p>
             </div>
           </div>
@@ -67,14 +67,7 @@ const Facts = () => {
           className="animated-layer fade-in-right-animation fadeInLeft wow"
           data-wow-offset={200}
         >
-          <div>
-            <div>
-              <h3>32</h3>
-              <p>
-                learned<span>frameworks</span>
-              </p>
-            </div>
-          </div>
+         
         </div>
         {/* SINGE FACT ITEM ENDS */}
       </div>

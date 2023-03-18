@@ -47,12 +47,12 @@ const Portfolio = () => {
                   </span>
                   <span>ReactJS , Redux</span>
                 </li>
-                <li>
+                {/* <li>
                   <span>
                     <i className="fa-regular fa-user" /> Client :
                   </span>
                   <span>Envato</span>
-                </li>
+                </li> */}
                 {/* <li>
                   <span>
                     <i className="fa-regular fa-hourglass" /> Duration :

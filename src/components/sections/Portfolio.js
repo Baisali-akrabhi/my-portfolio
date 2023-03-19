@@ -41,30 +41,14 @@ const Portfolio = () => {
             <h4>Shopping Cart</h4>
             <div>
               <ul>
-                <li>
-                  <span>
-                    <i className="fa-regular fa-file-lines" /> Frameworks :
-                  </span>
-                  <span>ReactJS , Redux</span>
-                </li>
-                {/* <li>
-                  <span>
-                    <i className="fa-regular fa-user" /> Client :
-                  </span>
-                  <span>Envato</span>
-                </li> */}
-                {/* <li>
-                  <span>
-                    <i className="fa-regular fa-hourglass" /> Duration :
-                  </span>
-                  <span>3 months</span>
-                </li>
-                <li>
+              <li>
                   <span>
                     <i className="fa-solid fa-code-branch" /> Frameworks :
                   </span>
-                  <span>WordPress</span>
-                </li> */}
+                  <span>ReactJS , Redux</span>
+                </li>
+                
+                
               </ul>
             </div>
             <a href="https://github.com/Baisali-akrabhi/Redux-shopping-cart" target="_blank" className="custom-btn">
@@ -81,46 +65,33 @@ const Portfolio = () => {
           {/* ITEM MAIN CONTENT STARTS */}
           <div className="main-content">
             <div className="videocontainer">
-              <iframe
+              {/* <iframe
                 className="youtube-video"
                 src="https://www.youtube.com/embed/AqcjdkPMPJA?enablejsapi=1&version=3&playerapiid=ytplayer"
                 allowFullScreen=""
-              />
+              /> */}
+              <img
+              className="img"
+              src="assets/portfolio/recipe.png"
+              alt="Recipe Project"
+            />
             </div>
           </div>
           {/* ITEM MAIN CONTENT ENDS */}
           {/* ITEM DETAILS STARTS */}
           <div className="details">
-            <h4>Youtube Project</h4>
+            <h4>Recipe Book</h4>
             <div>
               <ul>
                 <li>
                   <span>
-                    <i className="fa-regular fa-file-lines" /> Project :
-                  </span>
-                  <span>Short Film</span>
-                </li>
-                <li>
-                  <span>
-                    <i className="fa-regular fa-user" /> Client :
-                  </span>
-                  <span>Videohive</span>
-                </li>
-                <li>
-                  <span>
-                    <i className="fa-regular fa-hourglass" /> Duration :
-                  </span>
-                  <span>8 months</span>
-                </li>
-                <li>
-                  <span>
                     <i className="fa-solid fa-code-branch" /> Frameworks :
                   </span>
-                  <span>After Effects</span>
+                  <span>HTML, CSS, JavaScript</span>
                 </li>
               </ul>
             </div>
-            <a href="#" target="_blank" className="custom-btn">
+            <a href="https://github.com/Baisali-akrabhi/Recipe-book" target="_blank" className="custom-btn">
               <span>
                 preview <i className="fa-solid fa-arrow-up-right-from-square" />
               </span>

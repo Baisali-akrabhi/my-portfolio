@@ -5,10 +5,10 @@ const colors = [
   { id: 2, name: "green" },
   { id: 3, name: "red" },
   { id: 4, name: "blue" },
-  { id: 5, name: "orange" },
-  { id: 6, name: "yellowgreen" },
-  { id: 7, name: "pink" },
-  { id: 8, name: "goldenrod" },
+  // { id: 5, name: "orange" },
+  // { id: 6, name: "yellowgreen" },
+  // { id: 7, name: "pink" },
+  // { id: 8, name: "goldenrod" },
 ];
 const Switcher = () => {
   const [color, setColor] = useState("yellow");
